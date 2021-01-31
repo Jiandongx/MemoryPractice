@@ -1,0 +1,49 @@
+<resources>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="number_link_title_text">0-11及22以形状相似的东西为引子，其余的皆以谐音为引子，方便记忆。
+    你可点击更改联想列表。</string>
+    <string name="app_name">数字联想记忆训练</string>
+    <string name="action_settings_string">设置</string>
+    <string name="enter_btn_string">确定</string>
+    <string name="current_record_string">目前纪录:</string>
+    <string name="highest_record_string">最高纪录:</string>
+    <string name="hint_switch">提示</string>
+    <string name="title_activity_settings">设置</string>
+    <string name="show_hint_string">显示数字提示</string>
+    <string name="show_hint_image">显示图片提示</string>
+    <string name="done_string">完成</string>
+    <string name="number_picker_string">请输入数字卡片的数量\n(每张卡片两个数字)</string>
+    <string name="speed_setting_string">请输入显示卡片的时间\n(以秒为标准)</string>
+    <string name="action_demo_string">示范</string>
+    <string name="title_activity_demo">示范</string>
+    <string name="title_activity_number_linkage">数字联想列表</string>
+    <string name="btn_start_string">开始</string>
+    <string name="action_number_link_string">数字联想列表</string>
+    <string name="edit_linkage_btn_string">更新数字联想</string>
+    <string name="number_range_string">请选择数字的范围</string>
+    <string name="start_demo_string">开始示范</string>
+    <string name="title_activity_instruction">说明</string>
+    <string name="action_instruction_string">说明</string>
+    <string name="test_toolbar">测试</string>
+
+    <string name="instruction_0_string">关于数字联想法的概念，我就不赘言了，网上很多资料。
+        因为本人发现缺少一个工具来更好的练习这种记忆法，就做了个简单的应用程序作为一种辅助。
+        希望对大家有帮助。
+    </string>
+    <string name="instruction_1_string">步骤一:\n记下与0 - 99相对应的名词。
+        你可以选择先记住部分相对应的名词。但在练习时，请记得去“设置”选择相对的数字范围。
+    </string>
+    <string name="instruction_2_string">步骤二:\n设定你想要的设置。</string>
+    <string name="instruction_3_string">步骤三:\n开始练习。</string>
+
+    <string name="demo_before_begin_string">开始示范之前，请记住要尽可能地在脑海里生动地想象那些画面。
+        这样才能更清晰地记住事物。
+    </string>
+    <string name="title_activity_records">以往保存的记录</string>
+
+    <string name="action_records">以往保存的记录</string>
+    <string name="hint">输入联想</string>
+    <string name="image_hint">Image Hint</string>
+</resources>

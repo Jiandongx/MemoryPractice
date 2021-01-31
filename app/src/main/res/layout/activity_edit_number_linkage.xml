@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.practice.jiandongxiao.memorypractice.Demo">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/linkage_number_title"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentLeft="true"
+        android:text="@string/show_hint_image"
+        android:textSize="18sp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linkage_text"
+        android:layout_alignParentRight="true"
+        android:inputType="text"
+        android:importantForAutofill="no"
+        android:ems="4"
+        android:gravity="center_horizontal"
+        android:hint="@string/hint"/>
+
+    <View
+        android:id="@+id/line2"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/linkage_text"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/linkage_image_title"
+        android:layout_below="@+id/linkage_text"
+        android:layout_alignParentLeft="true"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/linkage_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/linkage_image_title"
+        android:layout_above="@+id/edit_linkage"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/image_hint" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_linkage_btn_string"
+        android:id="@+id/edit_linkage"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
